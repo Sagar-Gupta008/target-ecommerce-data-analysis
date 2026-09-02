@@ -65,3 +65,61 @@ SQL Business Queries
 Advanced Analysis
         ↓
 Business Insights
+---
+
+## 🧠 SQL Business Analysis
+
+The SQL analysis was structured across **basic, intermediate, and advanced business questions**, progressing from aggregations and joins to analytical queries using CTEs and window functions.
+
+### 🔹 Basic Analysis
+
+- Identified unique customer locations across the dataset
+- Analyzed order volume by year
+- Calculated total sales contribution by product category
+- Evaluated customer usage of installment payments
+- Analyzed customer distribution across Brazilian states
+
+### 🔹 Intermediate Analysis
+
+- Analyzed monthly order trends
+- Calculated average products ordered by customers across cities
+- Evaluated revenue contribution by product category
+- Examined the relationship between product price and purchase frequency
+- Ranked sellers based on generated revenue
+
+### 🔹 Advanced Analysis
+
+- Calculated moving averages of customer order values
+- Measured cumulative monthly sales
+- Analyzed year-over-year sales growth
+- Explored customer purchasing behavior over time
+- Identified and ranked the highest-spending customers by year
+
+### 🧩 SQL Concepts Demonstrated
+
+`JOINs` • `GROUP BY` • `Aggregations` • `CASE WHEN` • `Subqueries` • `CTEs` • `DENSE_RANK()` • `LAG()` • `Window Functions` • `Moving Averages` • `Cumulative Analysis`
+
+---
+## 💡 Key Findings
+
+### 📦 Order Activity
+- **45,101 orders** were recorded in 2017, demonstrating substantial transaction activity during the period analyzed.
+
+### 🛍️ Product Category Performance
+- **Bed, Table & Bath** contributed approximately **10.70%** of analyzed category revenue.
+- **Health & Beauty** followed at approximately **10.35%**.
+- **Computer Accessories** contributed approximately **9.90%**.
+
+These categories emerged among the strongest contributors to overall sales.
+
+### 💳 Price vs Purchase Frequency
+- The analysis produced a correlation of approximately **-0.106** between average product price and purchase frequency.
+- This indicates a **very weak negative linear relationship**, suggesting that price alone was not a strong indicator of how frequently products were purchased.
+
+### 📈 Sales Growth
+- Year-over-year analysis showed approximately **20% growth in sales for 2018** compared with 2017 within the available dataset.
+- Since the available 2018 records do not represent a complete calendar year, this result should be interpreted within the dataset's available time coverage.
+
+### 🏆 Customer & Seller Performance
+- Revenue-based ranking was used to identify high-performing sellers.
+- Annual customer-spending analysis identified the highest-value customers using SQL window functions and ranking techniques.
