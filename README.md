@@ -167,3 +167,34 @@ target-ecommerce-data-analysis/
 ├── SQL and Python Project.pdf
 ├── dataset_link.txt
 └── README.md
+```
+---
+
+## 💼 Skills Demonstrated
+
+- Writing SQL queries to answer business questions
+- Working with relational e-commerce datasets
+- Using joins, aggregations, subqueries, CTEs, and window functions
+- Performing exploratory data analysis with Python
+- Manipulating and analyzing data using Pandas and NumPy
+- Creating visualizations using Matplotlib and Seaborn
+- Analyzing sales trends, customers, sellers, and product performance
+- Translating analytical results into business insights
+- Identifying and communicating data limitations
+---
+
+## ▶️ How to Explore the Project
+
+1. Open **`Python+SQL_Solutions.ipynb`** to view the complete Python and SQL analysis.
+2. Review the business questions and corresponding analytical outputs.
+3. Explore the visualizations and key findings summarized in this README.
+
+> **Note:** Database credentials are intentionally excluded from the repository. Configure your own local MySQL connection before executing database-dependent cells.
+---
+
+## 👤 Author
+
+**Sagar Gupta**  
+Data Analyst | SQL • Power BI • Python • Excel
+
+[LinkedIn](https://www.linkedin.com/in/sagar-gupta087/) • [Portfolio](https://sagar-gupta-data-analyst.framer.website/) • [GitHub](https://github.com/Sagar-Gupta008)
