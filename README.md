@@ -185,8 +185,6 @@ target-ecommerce-data-analysis/
 
 ## ▶️ How to Explore the Project
 
-## ▶️ How to Explore the Project
-
 1. Open **`target_ecommerce_analysis.ipynb`** to view the complete Python and SQL analysis.
 2. Review **`business_questions.txt`** to see the business questions addressed in the project.
 3. Explore the visualizations and key findings summarized in this README.
