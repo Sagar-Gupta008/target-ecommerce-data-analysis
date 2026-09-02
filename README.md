@@ -1,89 +1,67 @@
-# 📊 E-Commerce Sales Analysis using Python and SQL
+# 🛒 Target E-Commerce Data Analysis
 
-## 🔍 Overview
+## 📌 Project Overview
 
-This project analyzes E-Commerce sales data using Python and SQL. It covers data cleaning, exploratory data analysis (EDA), advanced SQL queries, and insightful visualizations to understand sales trends, customer behavior, and product performance. The project combines analytical thinking with technical skills to derive actionable business insights.
+This project analyzes a large-scale Brazilian e-commerce dataset to uncover patterns in sales, customer behavior, product performance, payments, and seller performance.
 
----
-
-## 📁 Project Structure
-
-
-# Python-and-SQL-Project
+The analysis combines **Python and SQL** to explore the data from both analytical and business perspectives. Python was used for data exploration and visualization, while MySQL was used to answer business questions ranging from basic aggregations to advanced analytical queries involving CTEs and window functions.
 
 ---
 
-## 🧰 Technologies Used
+## 🎯 Business Objective
 
-- **Python**: Data cleaning, visualization
-- **SQL**: Data querying and manipulation
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn
-- **RDBMS**: MySQL/PostgreSQL
+The objective of this project is to transform raw e-commerce transactional data into meaningful business insights that can support data-driven decision-making.
 
----
+The analysis focuses on questions such as:
 
-## ✅ Key Components
-
-### 1. 📥 Data Collection & Cleaning
-- Loaded Target E-Commerce sales dataset.
-- Preprocessing involved handling missing values, inconsistencies, and outliers.
-
-### 2. 📊 Exploratory Data Analysis (EDA)
-- Summary statistics
-- Visual trends of sales over time
-- Category and region-wise performance
-- Customer segmentation and behavior analysis
-
-### 3. 📌 SQL-Based Analysis
-
-#### 🔹 Basic Queries
-- List unique customer cities
-- Count of 2017 orders
-- Total sales by category
-- Order installments ratio
-- Customer distribution by state
-
-#### 🔹 Intermediate Queries
-- Monthly order trends (2018)
-- Products per order by city
-- Revenue by product category
-- Price vs frequency correlation
-- Seller revenue and ranking
-
-#### 🔹 Advanced Queries
-- Moving average of order values
-- Monthly cumulative sales
-- Year-over-year growth rate
-- 6-month customer retention
-- Top 3 customers per year
-
-### 4. 📈 Visualizations
-- Created using Python's Matplotlib and Seaborn
-- Represented trends, patterns, and anomalies clearly
+- How are orders distributed across cities and states?
+- Which product categories contribute the most to sales?
+- How do sales and order volumes change over time?
+- Which sellers and customers contribute the most revenue?
+- How frequently do customers use installment payments?
+- Is there a relationship between product price and purchase frequency?
+- How are sales growing year over year?
+- How can customers and sellers be ranked based on their performance?
 
 ---
 
-## 🚀 Future Enhancements
+## 📊 Dataset
 
-- Machine Learning for sales and customer behavior prediction
-- Real-time data processing pipelines
-- Integration with Power BI / Tableau for dynamic dashboards
-- Clustering and segmentation using ML (e.g., K-Means)
-- Recommendation engines
-- Sentiment analysis from customer reviews
+The project uses the **Target Brazilian E-Commerce dataset**, containing information about customers, orders, products, sellers, payments, and geographic locations.
 
----
+The relational dataset allows multiple tables to be joined using common identifiers such as customer IDs, order IDs, product IDs, and seller IDs.
 
-## 🧑‍💻 Author
-
-**Sagar Gupta**  
-📧 [krishanasagar406@gmail.com](mailto:krishanasagar406@gmail.com)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/sagar-gupta087/)  
-💻 [GitHub Repository](https://github.com/Sagar-Gupta008/Python-and-SQL-Project/tree/main)
+The analysis covers e-commerce transactions across multiple years and geographic locations in Brazil.
 
 ---
 
-## 📄 License
+## 🛠️ Tech Stack
 
-This project is open-source and licensed under the MIT License.
+| Technology | Purpose |
+|---|---|
+| **Python** | Data analysis and exploratory analysis |
+| **Pandas** | Data manipulation and exploration |
+| **NumPy** | Numerical operations |
+| **Matplotlib** | Data visualization |
+| **Seaborn** | Statistical visualization |
+| **MySQL** | Database querying and business analysis |
+| **Jupyter Notebook** | Analysis and documentation environment |
 
+---
+
+## 🔄 Analysis Workflow
+
+```text
+Raw E-Commerce Data
+        ↓
+Data Exploration
+        ↓
+Python Analysis
+        ↓
+MySQL Database
+        ↓
+SQL Business Queries
+        ↓
+Advanced Analysis
+        ↓
+Business Insights
