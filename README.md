@@ -65,6 +65,7 @@ SQL Business Queries
 Advanced Analysis
         ↓
 Business Insights
+```
 ---
 
 ## 🧠 SQL Business Analysis
