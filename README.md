@@ -124,3 +124,29 @@ These categories emerged among the strongest contributors to overall sales.
 ### 🏆 Customer & Seller Performance
 - Revenue-based ranking was used to identify high-performing sellers.
 - Annual customer-spending analysis identified the highest-value customers using SQL window functions and ranking techniques.
+
+---
+
+## 📊 Analysis Visualizations
+
+### 📅 Monthly Order Trend — 2018
+
+![Monthly Orders in 2018](images/MONTHLY-ORDERS-2018.png)
+
+Order volumes remained relatively strong from January through August 2018, generally exceeding 6,000 orders per month. The sharp decline in September and October reflects incomplete data coverage rather than a reliable decline in business activity.
+
+---
+
+### 🏆 Top 5 Sellers by Revenue
+
+![Top 5 Sellers by Revenue](images/TOP-5-SELLERS-BY-REVENUE.png)
+
+The highest-performing seller generated approximately **507K in revenue**, substantially outperforming the remaining top sellers, whose revenues were closer to the **285K–308K range**.
+
+---
+
+### 🌎 Customer Distribution by State
+
+![Customers by State](images/CUSTOMERS-BY-STATE.png)
+
+Customer activity was geographically concentrated, with **São Paulo (SP)** representing the largest customer base by a considerable margin. Other major states included **Rio de Janeiro (RJ)** and **Minas Gerais (MG)**.
