@@ -150,3 +150,20 @@ The highest-performing seller generated approximately **507K in revenue**, subst
 ![Customers by State](images/CUSTOMERS-BY-STATE.png)
 
 Customer activity was geographically concentrated, with **São Paulo (SP)** representing the largest customer base by a considerable margin. Other major states included **Rio de Janeiro (RJ)** and **Minas Gerais (MG)**.
+---
+
+## 📂 Repository Structure
+
+```text
+target-ecommerce-data-analysis/
+│
+├── images/
+│   ├── MONTHLY-ORDERS-2018.png
+│   ├── TOP-5-SELLERS-BY-REVENUE.png
+│   └── CUSTOMERS-BY-STATE.png
+│
+├── Python+SQL_Solutions.ipynb
+├── Questions(Ecommerce Project).txt
+├── SQL and Python Project.pdf
+├── dataset_link.txt
+└── README.md
