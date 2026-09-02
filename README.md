@@ -162,10 +162,10 @@ target-ecommerce-data-analysis/
 │   ├── TOP-5-SELLERS-BY-REVENUE.png
 │   └── CUSTOMERS-BY-STATE.png
 │
-├── Python+SQL_Solutions.ipynb
-├── Questions(Ecommerce Project).txt
-├── SQL and Python Project.pdf
-├── dataset_link.txt
+├── target_ecommerce_analysis.ipynb
+├── business_questions.txt
+├── project_report.pdf
+├── dataset_source.txt
 └── README.md
 ```
 ---
@@ -185,9 +185,12 @@ target-ecommerce-data-analysis/
 
 ## ▶️ How to Explore the Project
 
-1. Open **`Python+SQL_Solutions.ipynb`** to view the complete Python and SQL analysis.
-2. Review the business questions and corresponding analytical outputs.
+## ▶️ How to Explore the Project
+
+1. Open **`target_ecommerce_analysis.ipynb`** to view the complete Python and SQL analysis.
+2. Review **`business_questions.txt`** to see the business questions addressed in the project.
 3. Explore the visualizations and key findings summarized in this README.
+4. Refer to **`project_report.pdf`** for additional project documentation.
 
 > **Note:** Database credentials are intentionally excluded from the repository. Configure your own local MySQL connection before executing database-dependent cells.
 ---
